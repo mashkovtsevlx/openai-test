@@ -14,7 +14,7 @@ function askQuestion(query) {
 }
 
 const configuration = new Configuration({
-  apiKey: "<api_key>",
+  apiKey: process.env.API_KEY,
 });
 const openai = new OpenAIApi(configuration);
 
