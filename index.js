@@ -14,7 +14,7 @@ function askQuestion(query) {
 }
 
 const configuration = new Configuration({
-  apiKey: "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",
+  apiKey: "<api_key>",
 });
 const openai = new OpenAIApi(configuration);
 
